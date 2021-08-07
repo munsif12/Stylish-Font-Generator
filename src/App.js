@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
-import bgImage from "./bgImg.png";
+import bgImage from "./asset/bgImg.png";
 import { stylesArray } from "./data/FontFamily";
 function App() {
   console.log(stylesArray);
   const [userText, setuserText] = useState("");
   return (
     <div className="App" style={{ background: `url(${bgImage})` }}>
-      {/* create a form with one input field */}
       <div className="content_wrapper">
         <div className="formWrapper">
           <form>
